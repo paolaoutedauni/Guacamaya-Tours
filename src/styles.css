@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+.guacamaya-header {
+  justify-content: center !important;
+}
+
+.header-collapse {
+  flex-grow: initial !important;
+}

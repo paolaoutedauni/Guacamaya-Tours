@@ -9,8 +9,5 @@ export class AppComponent {
   title = 'guacamaya-tours';
 
   ngOnInit() {
-
-    debugger;
-    console.log('Paola');
   }
 }
