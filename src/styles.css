@@ -6,3 +6,35 @@
 .header-collapse {
   flex-grow: initial !important;
 }
+.logo {
+  height: 25px;
+}
+footer {
+  color: white;
+  background-color: black;
+}
+
+.footer-text {
+  font-size: 1.2rem;
+}
+
+.footer-logo {
+  border-top: 1px solid;
+  border-color: white;
+  justify-content: center;
+  display: flex;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.img-footer {
+  margin-right: 0.5%;
+}
+
+.footer-container {
+  margin-bottom: 2%;
+}
+
+.push-footer {
+  margin-right: 3%;
+}
