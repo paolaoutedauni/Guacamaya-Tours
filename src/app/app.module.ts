@@ -7,10 +7,20 @@ import { CarouselModule } from "ngx-bootstrap/carousel";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { CommonModule } from "@angular/common";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { RegisterComponent } from "./components/register/register.component";
+import { NotFoundComponent } from "./components/not-found/not-found.component";
+import { HomeComponent } from "./components/home/home.component";
+import { MaterialModule } from "./material.module";
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [
+    AppComponent,
+    RegisterComponent,
+    NotFoundComponent,
+    HomeComponent
+  ],
   imports: [
+    MaterialModule,
     BrowserModule,
     AppRoutingModule,
     FormsModule,
