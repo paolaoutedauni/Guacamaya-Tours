@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { RegisterComponent } from "./components/register/register.component";
 import { NotFoundComponent } from "./components/not-found/not-found.component";
 import { HomeComponent } from "./components/home/home.component";
+import { MaterialModule } from "./material.module";
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { HomeComponent } from "./components/home/home.component";
     HomeComponent
   ],
   imports: [
+    MaterialModule,
     BrowserModule,
     AppRoutingModule,
     FormsModule,
